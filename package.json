@@ -1,0 +1,22 @@
+{
+  "name": "supremus-backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "install-service": "winser -i",
+    "uninstall-service": "winser -r"
+  },
+  "dependencies": {
+    "7zip-bin": "^5.1.1",
+    "dotenv": "^10.0.0",
+    "googleapis": "39",
+    "moment": "^2.29.1",
+    "node-7z": "^2.1.2",
+    "node-firebird": "^0.9.9",
+    "rimraf": "^3.0.2",
+    "winser": "^1.0.3",
+    "winston": "^3.3.3"
+  }
+}

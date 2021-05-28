@@ -1,0 +1,9 @@
+/node_modules
+/controle
+/temp
+/logs
+
+credentials.json
+token.json
+
+yarn.lock
